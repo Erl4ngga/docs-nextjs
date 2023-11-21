@@ -1,9 +1,8 @@
-import HomeView from "@/components/home";
-
+import DocsView from "@/components/docs/docs";
 export default function Home() {
   return (
     <main>
-      <HomeView />
+      <DocsView />
     </main>
   );
 }
