@@ -1,5 +1,5 @@
 "use client";
-import { Snippet } from "@nextui-org/react";
+import { Link, Snippet } from "@nextui-org/react";
 import {
   ShieldExclamationIcon,
   CheckBadgeIcon,
@@ -12,8 +12,32 @@ android:value="Your Google maps API Key Here"/>`;
 export default function FixedErrorMobileView() {
   return (
     <div className="flex flex-col p-5">
+      <div className="font-bold text-3xl mt-3">Install OpenJDK !!!</div>
+      <div className="flex flex-row space-x-2">
+        <Link
+          isExternal
+          showAnchorIcon
+          href="https://openjdk.org/"
+          color="success"
+          size="md"
+          className="my-5"
+        >
+          Open JDK
+        </Link>
+        <div className="font-normal text-base my-5">Or Read</div>
+        <Link
+          isExternal
+          showAnchorIcon
+          href="https://reactnative.dev/docs/environment-setup?guide=native"
+          color="success"
+          size="md"
+          className="my-5"
+        >
+          React Native CLI
+        </Link>
+      </div>
       <div className="font-bold text-3xl mt-3">Add Build Verison </div>
-      <div className="font-normal text-base my-5">Go to android</div>
+      <div className="font-normal text-base my-6">Go to android</div>
       <div className="my-5">
         <Image width={550} height={550} src="/fixed.png" alt="asd" />
       </div>

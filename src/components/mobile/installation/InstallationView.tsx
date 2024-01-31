@@ -26,7 +26,11 @@ export default function InstallationMobileView() {
         <div className="font-semibold text-large ml-3 justify-center items-center flex">
           Node version &gt;=16
         </div>
+        <div className="font-semibold text-large ml-3 justify-center items-center flex">
+          OpenJdk Current 11
+        </div>
       </div>
+
       <div className="font-normal text-base my-5">
         To install the required node_modules and start the server for your
         Next.js front-end app, follow these steps:
