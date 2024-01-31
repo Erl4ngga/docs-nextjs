@@ -42,6 +42,20 @@ export default function ServiceView() {
   //  // Show loading indicator while data is being fetched
   //  return <Text>{error}</Text>;
   //}`;
+  const Order = `  //For Fetch Api Order
+  //const {data, isLoading, error} = useDataFetcher();
+  //if (loading) {
+  //  // Show loading indicator while data is being fetched
+  //  return (
+  //    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
+  //      <ActivityIndicator size="large" color="#0000ff" />
+  //    </View>
+  // );
+  //}
+  //if (error) {
+  //  // Show loading indicator while data is being fetched
+  //  return <Text>{error}</Text>;
+  //}`;
   return (
     <div className="flex flex-col p-5">
       <div className="font-bold text-3xl">Quick Start</div>
@@ -87,6 +101,9 @@ export default function ServiceView() {
         <CodeBlock code={product} language="react" />
       </div>
       <div className="font-medium text-lg my-5">Example Call Api Order</div>
+      <div>
+        <CodeBlock code={Order} language="react" />
+      </div>
     </div>
   );
 }

@@ -39,6 +39,15 @@ export default function Header() {
             <Button as={Link} color="success" href="/" variant="flat">
               Home
             </Button>
+            <Button
+              as={Link}
+              color="success"
+              href="/mobile"
+              variant="flat"
+              className="mx-5"
+            >
+              Mobile
+            </Button>
           </NavbarItem>
         </NavbarContent>
       </Navbar>
