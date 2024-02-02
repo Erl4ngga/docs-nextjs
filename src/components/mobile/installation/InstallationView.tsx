@@ -33,7 +33,7 @@ export default function InstallationMobileView() {
 
       <div className="font-normal text-base my-5">
         To install the required node_modules and start the server for your
-        Next.js front-end app, follow these steps:
+        React-native app, follow these steps:
       </div>
       <h2 className="font-medium text-lg my-5">1. Install NPM </h2>
       <Snippet color="success" className="w-64">
