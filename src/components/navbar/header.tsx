@@ -36,10 +36,10 @@ export default function Header() {
             <MoonIcon width={30} height={30} />
           </button>
           <NavbarItem>
-            <Button as={Link} color="success" href="/" variant="flat">
+            {/*<Button as={Link} color="success" href="/" variant="flat">
               Home
-            </Button>
-            <Button
+            </Button>*/}
+            {/*<Button
               as={Link}
               color="success"
               href="/mobile"
@@ -47,7 +47,7 @@ export default function Header() {
               className="mx-5"
             >
               Mobile
-            </Button>
+            </Button>*/}
           </NavbarItem>
         </NavbarContent>
       </Navbar>

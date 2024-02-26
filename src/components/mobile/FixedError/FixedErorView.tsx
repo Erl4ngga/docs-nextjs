@@ -18,7 +18,7 @@ export default function FixedErrorMobileView() {
           isExternal
           showAnchorIcon
           href="https://openjdk.org/"
-          color="success"
+          color="primary"
           size="md"
           className="my-5"
         >
@@ -29,7 +29,7 @@ export default function FixedErrorMobileView() {
           isExternal
           showAnchorIcon
           href="https://reactnative.dev/docs/environment-setup?guide=native"
-          color="success"
+          color="primary"
           size="md"
           className="my-5"
         >

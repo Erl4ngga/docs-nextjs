@@ -12,14 +12,14 @@ export default function InstallationMobileView() {
         isExternal
         showAnchorIcon
         href="https://drive.google.com/file/d/1eMJ7dVfdiw1eR5IcDvowPkQBPrfpUEtE/view?usp=sharing"
-        color="success"
+        color="primary"
         size="lg"
         className="my-5"
       >
         Download App
       </Link>
       <div className="flex flex-row mt-5">
-        <CheckBadgeIcon width={30} height={30} className="text-green-600" />
+        <CheckBadgeIcon width={30} height={30} className="text-blue-600" />
         <div className="font-semibold text-large ml-3 justify-center items-center flex">
           React-Native cli Version 0.72
         </div>
@@ -36,7 +36,7 @@ export default function InstallationMobileView() {
         React-native app, follow these steps:
       </div>
       <h2 className="font-medium text-lg my-5">1. Install NPM </h2>
-      <Snippet color="success" className="w-64">
+      <Snippet color="primary" className="w-64">
         npm install
       </Snippet>
       <h2 className="font-medium text-lg my-5">2. Install Android Studio</h2>
@@ -44,17 +44,17 @@ export default function InstallationMobileView() {
         isExternal
         showAnchorIcon
         href="https://developer.android.com/studio"
-        color="success"
+        color="primary"
         size="lg"
       >
         Android Studio
       </Link>
       <h2 className="font-medium text-lg my-5">2. Run </h2>
-      <Snippet color="success" className="w-96">
+      <Snippet color="primary" className="w-96">
         npx react-native run-android --port=1234
       </Snippet>
       <h2 className="font-medium text-lg my-5">Or</h2>
-      <Snippet color="success" className="w-72">
+      <Snippet color="primary" className="w-72">
         npx react-native run-android
       </Snippet>
       <div className="my-6">

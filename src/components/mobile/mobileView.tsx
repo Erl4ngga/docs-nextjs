@@ -37,7 +37,7 @@ export default function MobileView() {
         <button
           className={`flex flex-row space-x-4 p-5 ${
             activeTab === "Installation"
-              ? "border-b-2 border-green-500 text-green-500"
+              ? "border-b-2 border-blue-500 text-blue-500"
               : ""
           }`}
           onClick={() => toggleTab("Installation")}
@@ -51,7 +51,7 @@ export default function MobileView() {
         <button
           className={`flex flex-row space-x-4 p-5 ${
             activeTab === "StylingComponent"
-              ? "border-b-2 border-green-500 text-green-500"
+              ? "border-b-2 border-blue-500 text-blue-500"
               : ""
           }`}
           onClick={() => toggleTab("StylingComponent")}
@@ -65,7 +65,7 @@ export default function MobileView() {
         <button
           className={`flex flex-row space-x-4 p-5 ${
             activeTab === "Environment"
-              ? "border-b-2 border-green-500 text-green-500"
+              ? "border-b-2 border-blue-500 text-blue-500"
               : ""
           }`}
           onClick={() => toggleTab("Environment")}
@@ -76,10 +76,10 @@ export default function MobileView() {
           </h1>
         </button>
 
-        <button
+        {/*<button
           className={`flex flex-row space-x-4 p-5 ${
             activeTab === "Service"
-              ? "border-b-2 border-green-500 text-green-500"
+              ? "border-b-2 border-blue-500 text-blue-500"
               : ""
           }`}
           onClick={() => toggleTab("Service")}
@@ -88,11 +88,11 @@ export default function MobileView() {
           <h1 className="justify-center flex items-center capitalize">
             Service & managament state
           </h1>
-        </button>
+        </button>*/}
         <button
           className={`flex flex-row space-x-4 p-5 ${
             activeTab === "ContactMe"
-              ? "border-b-2 border-green-500 text-green-500"
+              ? "border-b-2 border-blue-500 text-blue-500"
               : ""
           }`}
           onClick={() => toggleTab("ContactMe")}

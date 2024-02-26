@@ -40,7 +40,7 @@ export function StylingMobileComponent() {
           >
             React native element
           </Link>
-          <Link
+          {/*<Link
             isExternal
             showAnchorIcon
             href="https://reactnativepaper.com/"
@@ -48,7 +48,7 @@ export function StylingMobileComponent() {
             size="lg"
           >
             react native paper
-          </Link>
+          </Link>*/}
         </div>
       </div>
     </div>
