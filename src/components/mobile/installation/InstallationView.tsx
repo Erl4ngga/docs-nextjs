@@ -11,7 +11,7 @@ export default function InstallationMobileView() {
       <Link
         isExternal
         showAnchorIcon
-        href="https://drive.google.com/file/d/1eMJ7dVfdiw1eR5IcDvowPkQBPrfpUEtE/view?usp=sharing"
+        href="https://drive.google.com/file/d/13FyoPHxXIHx86zF0fkpLHRgJjdiAMd-b/view?usp=sharing"
         color="primary"
         size="lg"
         className="my-5"
