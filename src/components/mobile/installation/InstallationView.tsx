@@ -8,16 +8,6 @@ export default function InstallationMobileView() {
   return (
     <div className="flex flex-col p-5">
       <div className="font-bold text-3xl">Quick Start</div>
-      <Link
-        isExternal
-        showAnchorIcon
-        href="https://drive.google.com/file/d/13FyoPHxXIHx86zF0fkpLHRgJjdiAMd-b/view?usp=sharing"
-        color="primary"
-        size="lg"
-        className="my-5"
-      >
-        Download App
-      </Link>
       <div className="flex flex-row mt-5">
         <CheckBadgeIcon width={30} height={30} className="text-blue-600" />
         <div className="font-semibold text-large ml-3 justify-center items-center flex">
